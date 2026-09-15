@@ -15,6 +15,21 @@
 .bannercontent p{
   font-size: 20px;
 }
+
+.bannercontent br {
+  display: none;
+}
+
+.bannercontent ul li {
+  font-size: 15px;
+}
+.bannercontentbtn {
+  flex-direction: column;
+}
+
+.bannercontentbtn button {
+ width: 100%
+}
 }
 
 @media (min-width: 1400px) {
