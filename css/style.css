@@ -48,6 +48,7 @@
   width: 50%;
   padding: 10px 0;
   border-radius: 5px;
+  
 }
 
 .bannercontentbtn button:first-child {
@@ -71,4 +72,24 @@
   border: none;
   color: white;
   border-radius: 4px;
+}
+
+.countersection h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color:#2699FB
+}
+
+.highlights-section {
+  background-color: #F2FAFF;
+}
+
+.highlights-section h2 {
+  color: #0A2134;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.highlights-section p {
+  font-size: 18px;
 }

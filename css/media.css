@@ -4,6 +4,8 @@
     bottom: 10px;
     left: 0;
     right: 0;
+    padding: 8px 0;
+    background-color: white;
     justify-content: center !important;
   }
 
@@ -28,8 +30,18 @@
 }
 
 .bannercontentbtn button {
- width: 100%
+ width: 100%;
 }
+
+.bannerform {
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.highlights-section h2 {
+  font-size: 26px;
+}
+
 }
 
 @media (min-width: 1400px) {

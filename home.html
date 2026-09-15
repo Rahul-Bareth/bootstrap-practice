@@ -136,6 +136,83 @@
   </div>
 </div> -->
 
+
+<!--Enquire Modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Enquire Now</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" class="bannerform p-3 rounded-3">
+          <h3>Book Your Free Class Now!</h3>
+          <p>2 days of free demo classes without paying in advance!</p>
+
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Enter Your Name">
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Email Address">
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Phone</label>
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1">+91</span>
+              <input type="text" class="form-control" placeholder="Enter Your Number">
+            </div>
+          </div>
+
+          <div class="mb-1">
+            <button class="registerbtn">Register Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="Bookdemo">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Book Your Free Demo</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" class="bannerform p-3 rounded-3">
+          <h3>Book Your Free Class Now!</h3>
+          <p>2 days of free demo classes without paying in advance!</p>
+
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Enter Your Name">
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Phone</label>
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1">+91</span>
+              <input type="text" class="form-control" placeholder="Enter Your Number">
+            </div>
+          </div>
+
+          <div class="mb-1">
+            <button class="registerbtn">Register Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Model From Bootstrap--End-->
+
+
 <header class="container-fluid py-lg-2 py-3 bg-white shadow position-sticky top-0">
   <div class="container">
     <div class="row">
@@ -153,9 +230,9 @@
 </header>
 
 
-<section class="container-fluid py-lg-5 py-sm-4 py-3">
+<section class="container-fluid py-lg-3 py-sm-4 py-3">
   <div class="container">
-    <div class="row justify-content-between">
+    <div class="row justify-content-between align-items-center">
       <div class="col-lg-6">
         <div class="bannercontent">
           <h1>Career Opportunities in<br> <span> Digital Marketing</span></h1>
@@ -167,15 +244,18 @@
           </ul>
 
           <div class="bannercontentbtn d-flex gap-3">
-            <button class="demobtn">Book 2 Days Demo</button>
-            <button class="downloadbtn d-flex gap-2 align-items-center justify-content-center"> <i
-                class="fa-solid fa-download"></i>Download Curriculum</button>
+            <button data-bs-toggle="modal" data-bs-target="#Bookdemo" class="demobtn">Book 2 Days Demo</button>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              class="downloadbtn d-flex gap-2 align-items-center justify-content-center">
+              <i class="fa-solid fa-download"></i>
+              Download Curriculum
+            </button>
           </div>
         </div>
       </div>
 
       <div class="col-lg-5">
-        <form action="" class="bannerform shadow-sm">
+        <form action="" class="bannerform shadow-lg rounded-3">
           <h3>Book Your Free Class Now!</h3>
           <p>2 days of free demo classes without paying in advance!</p>
 
@@ -190,8 +270,8 @@
           <div class="mb-3">
             <label for="name" class="form-label">Phone</label>
             <div class="input-group">
-            <span class="input-group-text" id="basic-addon1">+91</span>
-            <input type="text" class="form-control" placeholder="Enter Your Number">
+              <span class="input-group-text" id="basic-addon1">+91</span>
+              <input type="text" class="form-control" placeholder="Enter Your Number">
             </div>
           </div>
 
@@ -203,8 +283,50 @@
     </div>
   </div>
 
+  <div class="container shadow-lg mt-lg-5 mt-3 countersection">
+    <div class="row row-cols-lg-5 row-cols-md-3 row-cols-2 p-4 text-center">
+      <div class="col">
+        <h2>1000+</h2>
+        <p>Students Trained</p>
+      </div>
+      <div class="col">
+        <h2>₹4.5 LPA</h2>
+        <p>Students Package</p>
+      </div>
+      <div class="col">
+        <h2>320+</h2>
+        <p>Recruiting Partners</p>
+      </div>
+      <div class="col">
+        <h2>10:00 AM </h2>
+        <p>Program Timings</p>
+      </div>
+      <div class="col">
+        <h2>11th May</h2>
+        <p>New Batch Starts</p>
+      </div>
+    </div>
+  </div>
 </section>
 
+<section class="container-fluid highlights-section py-5">
+<div class="container">
+  <div class="row mb-4">
+    <div class="col-12">
+      <h2>Key Highlights of The Course</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, fugit.</p>
+    </div>
+  </div>
+
+  <div class="row ">
+    <div class="col-lg-4 col-sm-6 col-12">
+      <div class="bg-white py-3">
+        <i class="fa-regular fa-file-lines"></i>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
 
 
 </body>
