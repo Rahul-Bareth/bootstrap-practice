@@ -1,0 +1,44 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.whatsappbtn {
+  border: 1px solid #27AE60;
+  color: #27AE60;
+  padding: 7px 15px;
+}
+ 
+.whatsappbtn i {
+  color: #27AE60;
+}
+
+.whatsappbtn:hover {
+  border: 1px solid #27AE60
+}
+
+.call {
+  color: white;
+  background:linear-gradient(to right , #0ACEFE, #2699FB);
+  padding: 7px 15px;
+}
+
+.bannercontent h1{
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.bannercontent span {
+  color: #2699FB
+}
+
+.bannercontent ul {
+  list-style: none;
+}
+
+.bannercontent ul li {
+ font-size: 20px;
+}
+
+.bannercontent ul li i {
+  color: #2699FB
+}
