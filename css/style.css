@@ -93,3 +93,12 @@
 .highlights-section p {
   font-size: 18px;
 }
+
+.highlights-items h5{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.highlights-items p {
+  font-size: 15px;
+}
