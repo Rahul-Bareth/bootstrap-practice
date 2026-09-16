@@ -42,6 +42,9 @@
   font-size: 26px;
 }
 
+.highlights-section {
+  margin-bottom: 40px;
+}
 }
 
 @media (min-width: 1400px) {
