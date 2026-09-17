@@ -28,6 +28,11 @@
   font-weight: 700;
 }
 
+.bannercontent p {
+  color: black;
+  margin-left: 5px;
+}
+
 .bannercontent span {
   color: #2699FB
 }
@@ -108,10 +113,18 @@
   font-size: 15px;
 }
 
+.what-learn {
+  background: linear-gradient(to top ,#15171a, #92b9e5); 
+}
 
 .what-learn h3, p {
   color: white;
   font-weight: 600;
+}
+
+
+.why-choose-section {
+ background: linear-gradient(to bottom, #e4e472  ,#174d50);
 }
 
 .why-choose-section h3, p{
